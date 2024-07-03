@@ -1,0 +1,65 @@
+.investmentType {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.7rem;
+}
+
+.termsBtn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  box-sizing: border-box;
+  background-color: transparent;
+  outline: 0;
+  /* border: 1px solid rgba(25, 118, 210, 0.5); */
+  border: 1px solid rgba(14, 21, 28, 0.5);
+  cursor: pointer;
+  user-select: none;
+  vertical-align: middle;
+  text-decoration: none;
+  color: #0f1629;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.75;
+  letter-spacing: 0.02857em;
+  padding: 10px;
+  border-radius: 6px;
+  width: 12rem;
+  height: 50px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  padding-left: 2.5rem;
+  padding-right: 1.2rem;
+}
+
+.termsBtn.selected {
+  background-color: rgba(0, 82, 254, 0.1);
+  color: #0052fe;
+  border: 2px solid #0052fe;
+}
+
+.tick {
+  display: none;
+}
+
+.tick.visible {
+  display: inline;
+}
+
+.months {
+  font-size: 0.9rem;
+}
+
+@media (max-width: 1001px) {
+  .termsBtn {
+    width: 9rem;
+    font-size: 0.85rem;
+    padding-left: 1.6rem;
+    padding-right: 1rem;
+    height: auto;
+  }
+}

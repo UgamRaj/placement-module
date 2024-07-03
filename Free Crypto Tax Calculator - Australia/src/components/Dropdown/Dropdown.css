@@ -1,0 +1,66 @@
+.custom-select {
+  position: relative;
+  display: inline-block;
+  width: 85%;
+}
+
+.select-selected {
+  background-color: #eff2f5;
+  padding: 8px 16px;
+  border: 1px solid #524b4b3d;
+  cursor: pointer;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  border-radius: 8px;
+}
+.option-selected {
+  border-color: #3360dc;
+}
+
+.select-selected img {
+  width: 20px;
+  height: 20px;
+  margin-right: 15px;
+}
+
+.select-items {
+  position: absolute;
+  background-color: #eff2f5;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  border: 1px solid #ddd;
+}
+
+.select-item {
+  padding: 8px 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.select-item img {
+  width: 20px;
+  height: 20px;
+  margin-right: 15px;
+}
+
+.select-item:hover,
+.same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.select-selected:hover {
+  border-color: black;
+}
+
+@media (max-width: 768px) {
+  .custom-select {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+  }
+}
