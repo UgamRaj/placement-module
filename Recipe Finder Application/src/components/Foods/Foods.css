@@ -1,0 +1,38 @@
+.foodItemMain {
+  display: flex;
+  padding: 1rem;
+  flex-wrap: wrap;
+  gap: 3rem;
+  justify-content: center;
+}
+
+.foodheading {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+  line-height: 1;
+  text-align: center;
+}
+.foodSearchAndLikeContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 1rem auto;
+  /* border: 1px solid red; */
+}
+.foodsearchBox {
+  display: flex;
+  input {
+    border-radius: 0.5rem;
+    width: 24rem;
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+  }
+  button {
+    padding: 1rem 2rem;
+  }
+}
+.foodsearchBox button:hover {
+  background-color: #1020d0;
+}
