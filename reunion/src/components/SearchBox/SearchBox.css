@@ -18,3 +18,9 @@ button:focus,
 button:focus-visible {
   scale: 0.97;
 }
+
+@media (max-width: 1005px) {
+  .searchForm {
+    flex-direction: column;
+  }
+}
