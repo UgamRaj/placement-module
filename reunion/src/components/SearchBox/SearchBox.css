@@ -1,0 +1,20 @@
+.searchForm {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem auto;
+  width: 90%;
+}
+
+.submitBtn button {
+  background-color: #0b5ed7;
+  border: none;
+  color: #fff;
+  &:hover {
+    background-color: #0a58ca;
+  }
+}
+
+button:focus,
+button:focus-visible {
+  scale: 0.97;
+}

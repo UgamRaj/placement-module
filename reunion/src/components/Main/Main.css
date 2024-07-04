@@ -1,0 +1,9 @@
+.mainContainer {
+  width: 90%;
+  display: flex;
+  margin: 1rem auto;
+  justify-content: center;
+  gap: 4rem;
+  flex-wrap: wrap;
+  /* gap: 1rem; */
+}
