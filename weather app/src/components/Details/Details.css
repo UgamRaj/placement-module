@@ -74,3 +74,29 @@ td {
 td svg {
   cursor: pointer;
 }
+
+@media (max-width: 768px) {
+  .detailsData {
+    width: 100%;
+    border-left: none;
+  }
+
+  .search {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .search input {
+    width: 80%;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  td,
+  th {
+    padding: 8px;
+    font-size: 0.8rem;
+  }
+}

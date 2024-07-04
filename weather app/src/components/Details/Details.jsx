@@ -5,7 +5,6 @@ const Details = ({
   weather,
   //   onHandleTarget,
   setAllCitiesData,
-  allCitiesData,
 }) => {
   //   console.log("🚀 ~ Details ~ weather:", weather);
   const [weatherData, setWeatherData] = useState([]);

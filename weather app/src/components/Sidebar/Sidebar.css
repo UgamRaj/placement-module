@@ -39,3 +39,20 @@ p {
 .selected {
   border: 2px solid #7cfc00;
 }
+
+@media (max-width: 768px) {
+  .cityListMain {
+    width: 100%;
+    border-right: none;
+  }
+
+  .getBtn,
+  .cityTable {
+    width: 100%;
+  }
+
+  p {
+    padding: 4%;
+    font-size: 0.8rem;
+  }
+}
