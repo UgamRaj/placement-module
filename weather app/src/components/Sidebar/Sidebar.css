@@ -1,0 +1,41 @@
+.cityListMain {
+  border-right: 2px solid #000;
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.getBtn {
+  width: 70%;
+  background-color: #4472c4;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  height: 10%;
+  margin: 5% 0;
+  cursor: pointer;
+}
+
+.cityTable {
+  width: 70%;
+}
+
+.cityTitle {
+  background-color: #4472c4;
+  color: #fff;
+  border: 1px solid grey;
+}
+
+p {
+  padding: 8% 0;
+  margin: 0;
+}
+.cityList {
+  border: 1px solid grey;
+}
+
+.selected {
+  border: 2px solid #7cfc00;
+}
