@@ -1,3 +1,7 @@
+## Hosted Link 👇
+
+[Data Retrive From URL](https://data-retrive-url-ugam.netlify.app/ "Data retrive")
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
