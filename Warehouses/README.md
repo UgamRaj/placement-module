@@ -4,6 +4,14 @@
 
 # Warehouse Management Application
 
+![1720597621601](image/README/1720597621601.png)
+
+![1720597656093](image/README/1720597656093.png)
+
+![1720597663770](image/README/1720597663770.png)
+
+![1720597669983](image/README/1720597669983.png)
+
 ## Overview
 
 The Warehouse Management Application is a web-based platform designed to help users manage warehouse details efficiently. It allows users to view, search, filter, and update warehouse information. The application is built using React and Redux for state management, with routing managed by React Router.
