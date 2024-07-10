@@ -12,33 +12,6 @@
 
 The Free Crypto Tax Calculator is a web application designed to help users in Australia calculate their cryptocurrency tax liabilities. The application allows users to input purchase and sale prices, expenses, and determine if their investment is short-term or long-term. Based on this information, it calculates the net capital gains and the tax payable. This project is built using React, with custom components for handling various inputs and tax calculations.
 
-## Components
-
-### 1. **Crypto Component**
-
-- The main component that ties all the functionality together.
-- Manages the state for purchase price, sale price, expenses, investment type (short-term or long-term), profit, tax payable, and net capital.
-- Handles input changes and updates the calculations accordingly.
-
-### 2. **Dropdown Component**
-
-- A reusable dropdown component for selecting the country.
-
-### 3. **InvestMentType Component**
-
-- Allows users to select the investment type (short-term or long-term).
-- Updates the parent component with the selected investment type.
-
-### 4. **AnnualUncomeTax Component**
-
-- Allows users to input their annual income tax percentage.
-- Updates the parent component with the tax percentage.
-
-### 5. **CapitalDiscountLongTerm Component**
-
-- Calculates the net capital based on whether the investment is short-term or long-term.
-- Updates the parent component with the calculated net capital.
-
 ## Functionalities
 
 - **Purchase Price Input:** Users can enter the purchase price of the cryptocurrency.

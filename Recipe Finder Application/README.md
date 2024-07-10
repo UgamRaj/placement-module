@@ -10,34 +10,6 @@
 
 ![1720591052319](image/README/1720591052319.png)
 
-## Components
-
-### 1. **App Component**
-
-- The main entry point of the application.
-- Sets up routing for different pages using `BrowserRouter`, `Routes`, and `Route`.
-
-### 2. **Foods Component**
-
-- Displays a list of available meals fetched from TheMealDB API.
-- Provides navigation links to view detailed information about each meal.
-
-### 3. **MealInfo Component**
-
-- Fetches and displays detailed information about a selected meal.
-- Shows meal title, category, area, ingredients, and instructions.
-- Allows users to like/unlike meals using a heart icon.
-
-### 4. **Favourite Component**
-
-- Displays a list of meals that the user has liked.
-- Allows navigation to view detailed information about each liked meal.
-
-### 5. **RecipeContext**
-
-- Provides context for managing liked meals.
-- Includes methods for updating liked meals and retrieving liked meals from local storage or state.
-
 ## Functionalities
 
 - **Meal Browsing:** Users can browse through a list of meals.
