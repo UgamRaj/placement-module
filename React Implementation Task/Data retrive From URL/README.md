@@ -4,6 +4,10 @@
 
 # Todo Application
 
+![1720750313666](image/README/1720750313666.png)
+
+![1720750333495](image/README/1720750333495.png)
+
 ## Overview
 
 This project is a simple Todo application built using React. It fetches data from a JSON placeholder API and displays a list of tasks. Users can paginate through the tasks, and update the completion status of each task. The application leverages caching to optimize performance and reduce unnecessary API calls.
